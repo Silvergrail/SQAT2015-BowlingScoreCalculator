@@ -46,25 +46,24 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testAddingToAnGameArray() {
 		testFrame = new Frame (1, 5);
-		testBowlingGame.addFrame(testFrame);
-		System.out.println(testBowlingGame.frames);
-		assertEquals("[1, 5]", testBowlingGame.frames);
+		testBowlingGame.frames.add(testFrame);
+		assertEquals("[1,5]", testBowlingGame.getFramesList());
 		
 	}
 	
 	
 	@Test
 	public void testComputeScoreOfTenFrames() {
-		testBowlingGame.addFrame(new Frame(1, 5));
-		testBowlingGame.addFrame(new Frame(3, 6));
-		testBowlingGame.addFrame(new Frame(7, 2));
-		testBowlingGame.addFrame(new Frame(3, 6));
-		testBowlingGame.addFrame(new Frame(4, 4));
-		testBowlingGame.addFrame(new Frame(5, 3));
-		testBowlingGame.addFrame(new Frame(3, 3));
-		testBowlingGame.addFrame(new Frame(4, 5));
-		testBowlingGame.addFrame(new Frame(8, 1));
-		testBowlingGame.addFrame(new Frame(2, 6));
+		testBowlingGame.frames.add(new Frame(1, 5));
+		testBowlingGame.frames.add(new Frame(3, 6));
+		testBowlingGame.frames.add(new Frame(7, 2));
+		testBowlingGame.frames.add(new Frame(3, 6));
+		testBowlingGame.frames.add(new Frame(4, 4));
+		testBowlingGame.frames.add(new Frame(5, 3));
+		testBowlingGame.frames.add(new Frame(3, 3));
+		testBowlingGame.frames.add(new Frame(4, 5));
+		testBowlingGame.frames.add(new Frame(8, 1));
+		testBowlingGame.frames.add(new Frame(2, 6));
 		
 		
 		assertEquals(81, testBowlingGame.score());

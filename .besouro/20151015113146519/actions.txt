@@ -1,0 +1,15 @@
+FileOpenedAction 1444897906799 TestBowlingScoreCalculator.java 223 1 1 0
+RefactoringAction 1444898265402 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444898267422 TestBowlingScoreCalculator.java RENAME test=>void testFrame FIELD
+RefactoringAction 1444898268432 TestBowlingScoreCalculator.java RENAME testFrame=>void testFrameIs FIELD
+RefactoringAction 1444898270432 TestBowlingScoreCalculator.java RENAME testFrameIs=>void testFrameIsComposed FIELD
+RefactoringAction 1444898296952 TestBowlingScoreCalculator.java RENAME testFrameIsComposed=>void testFrameIsComposedOfTwo FIELD
+RefactoringAction 1444898299462 TestBowlingScoreCalculator.java RENAME testFrameIsComposedOfTwo=>void testFrameIsComposedOfTwoThrows FIELD
+RefactoringAction 1444898301472 TestBowlingScoreCalculator.java RENAME testFrameIsComposedOfTwoThrows=>void testFrameIsComposedOfTwoThrows() METHOD
+FileOpenedAction 1444898366384 TestCell.java 969 6 11 5
+RefactoringAction 1444898393526 TestBowlingScoreCalculator.java ADD Frame testFrame FIELD
+RefactoringAction 1444898403677 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+RefactoringAction 1444898500959 TestBowlingScoreCalculator.java RENAME testFrameIsComposedOfTwoThrows()=>void testFrameIsComposedOfTwoThrowsScoresAre() METHOD
+RefactoringAction 1444898504469 TestBowlingScoreCalculator.java RENAME testFrameIsComposedOfTwoThrowsScoresAre()=>void testFrameIsComposedOfTwoThrowsScoresAre2() METHOD
+RefactoringAction 1444898505979 TestBowlingScoreCalculator.java RENAME testFrameIsComposedOfTwoThrowsScoresAre2()=>void testFrameIsComposedOfTwoThrowsScoresAre2And4() METHOD
+EditAction 1444898573011 TestBowlingScoreCalculator.java 406 2 2 0

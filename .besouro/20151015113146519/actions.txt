@@ -39,3 +39,4 @@ RefactoringAction 1444899040692 TestBowlingScoreCalculator.java ADD import org.u
 RefactoringAction 1444899249213 BowlingGame.java ADD int i FIELD
 RefactoringAction 1444899256223 BowlingGame.java RENAME i=>int index FIELD
 EditAction 1444899333046 BowlingGame.java 604 5 3 0
+EditAction 1444899336016 TestBowlingScoreCalculator.java 720 4 5 1

@@ -13,3 +13,16 @@ RefactoringAction 1444898500959 TestBowlingScoreCalculator.java RENAME testFrame
 RefactoringAction 1444898504469 TestBowlingScoreCalculator.java RENAME testFrameIsComposedOfTwoThrowsScoresAre()=>void testFrameIsComposedOfTwoThrowsScoresAre2() METHOD
 RefactoringAction 1444898505979 TestBowlingScoreCalculator.java RENAME testFrameIsComposedOfTwoThrowsScoresAre2()=>void testFrameIsComposedOfTwoThrowsScoresAre2And4() METHOD
 EditAction 1444898573011 TestBowlingScoreCalculator.java 406 2 2 0
+UnitTestCaseAction 1444898577121 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444898577121 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444898597745 TestBowlingScoreCalculator.java ADD void testComputeScoreOf FIELD
+RefactoringAction 1444898600755 TestBowlingScoreCalculator.java RENAME testComputeScoreOf=>void testComputeScoreOfTwo FIELD
+RefactoringAction 1444898603765 TestBowlingScoreCalculator.java RENAME testComputeScoreOfTwo=>void testComputeScoreOfTwoFrames FIELD
+RefactoringAction 1444898606275 TestBowlingScoreCalculator.java RENAME testComputeScoreOfTwoFrames=>void testComputeScoreOf FIELD
+RefactoringAction 1444898607285 TestBowlingScoreCalculator.java RENAME testComputeScoreOf=>void testComputeScoreOfT FIELD
+RefactoringAction 1444898609795 TestBowlingScoreCalculator.java RENAME testComputeScoreOfT=>void testComputeScoreOfFrames FIELD
+RefactoringAction 1444898613805 TestBowlingScoreCalculator.java RENAME testComputeScoreOfFrames=>void testComputeScoreOfFrames() METHOD
+RefactoringAction 1444898778376 Frame.java ADD int sum FIELD
+RefactoringAction 1444898779386 Frame.java RENAME sum=>int sumOf FIELD
+RefactoringAction 1444898783896 Frame.java RENAME sumOf=>int sumOfFrame FIELD
+EditAction 1444898886498 Frame.java 848 6 8 0

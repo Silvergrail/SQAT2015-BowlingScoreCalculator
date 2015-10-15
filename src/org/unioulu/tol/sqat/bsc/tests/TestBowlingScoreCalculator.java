@@ -46,8 +46,8 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testAddingToAnGameArray() {
 		testFrame = new Frame (1, 5);
-		testBowlingGame.frames.add(testFrame);
-		assertEquals("[1,5]", testBowlingGame.getFramesList());
+		testBowlingGame.addFrame(testFrame);
+		assertEquals("[1, 5]", testBowlingGame.frames);
 		
 	}
 	
@@ -67,6 +67,12 @@ public class TestBowlingScoreCalculator {
 		
 		
 		assertEquals(81, testBowlingGame.score());
+	}
+	
+	@Test
+	public void testIsStrike() {
+		
+		
 	}
 
 }

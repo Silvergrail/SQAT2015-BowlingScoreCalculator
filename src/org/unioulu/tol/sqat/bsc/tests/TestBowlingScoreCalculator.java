@@ -18,5 +18,12 @@ public class TestBowlingScoreCalculator {
 	public void testFrameIsComposedOfTwoThrowsScoresAre2And4() {	
 		testFrame = new Frame(2,4);			
 	}
+	
+	@Test
+	public void testComputeScoreOfFrames() {
+		testFrame = new Frame(2,6);
+		assertEquals(8, testFrame.score());
+		
+	}
 
 }

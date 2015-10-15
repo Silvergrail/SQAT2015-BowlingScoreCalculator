@@ -26,3 +26,4 @@ RefactoringAction 1444898778376 Frame.java ADD int sum FIELD
 RefactoringAction 1444898779386 Frame.java RENAME sum=>int sumOf FIELD
 RefactoringAction 1444898783896 Frame.java RENAME sumOf=>int sumOfFrame FIELD
 EditAction 1444898886498 Frame.java 848 6 8 0
+EditAction 1444898897048 TestBowlingScoreCalculator.java 538 3 4 1

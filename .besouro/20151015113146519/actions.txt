@@ -40,3 +40,30 @@ RefactoringAction 1444899249213 BowlingGame.java ADD int i FIELD
 RefactoringAction 1444899256223 BowlingGame.java RENAME i=>int index FIELD
 EditAction 1444899333046 BowlingGame.java 604 5 3 0
 EditAction 1444899336016 TestBowlingScoreCalculator.java 720 4 5 1
+CompilationAction 1444899336256 TestBowlingScoreCalculator.java
+RefactoringAction 1444899491610 TestBowlingScoreCalculator.java ADD void setGame FIELD
+RefactoringAction 1444899988286 TestBowlingScoreCalculator.java ADD Frame testFrame(int, int) METHOD
+RefactoringAction 1444899993136 TestBowlingScoreCalculator.java REMOVE testFrame(int, int) METHOD
+RefactoringAction 1444900006986 BowlingGame.java ADD void addFrame(int, int) METHOD
+RefactoringAction 1444900011566 BowlingGame.java REMOVE addFrame(int, int) METHOD
+RefactoringAction 1444900160090 TestBowlingScoreCalculator.java ADD import org.junit.Before IMPORT
+RefactoringAction 1444900222980 TestBowlingScoreCalculator.java RENAME testFrame=>Frame testFrame() METHOD
+RefactoringAction 1444900235000 TestBowlingScoreCalculator.java RENAME testFrame()=>Frame testFrame FIELD
+RefactoringAction 1444900459749 BowlingGame.java ADD Frame temp FIELD
+RefactoringAction 1444900467749 BowlingGame.java RENAME temp=>Frame frame FIELD
+RefactoringAction 1444900475269 BowlingGame.java RENAME addFrame(Frame)=>void addFrame() METHOD
+RefactoringAction 1444900699338 BowlingGame.java RENAME addFrame()=>void addFrame(int) METHOD
+RefactoringAction 1444900703838 BowlingGame.java RENAME addFrame(int)=>void addFrame() METHOD
+RefactoringAction 1444900706348 BowlingGame.java RENAME addFrame()=>void addFrame(int) METHOD
+RefactoringAction 1444900712888 BowlingGame.java RENAME addFrame(int)=>void addFrame(int, int) METHOD
+CompilationAction 1444900770390 BowlingGame.java
+RefactoringAction 1444900825092 BowlingGame.java RENAME addFrame(int, int)=>void addFrame(Frame) METHOD
+CompilationAction 1444900830082 BowlingGame.java
+CompilationAction 1444900830242 TestBowlingScoreCalculator.java
+CompilationAction 1444901059261 TestBowlingScoreCalculator.java
+RefactoringAction 1444901115063 TestBowlingScoreCalculator.java RENAME testGameConsistsOfTenFrames()=>void testComputeScore() METHOD
+RefactoringAction 1444901116073 TestBowlingScoreCalculator.java RENAME testComputeScore()=>void testComputeScoreOf() METHOD
+RefactoringAction 1444901120583 TestBowlingScoreCalculator.java RENAME testComputeScoreOf()=>void testComputeScoreOfTenFrames() METHOD
+RefactoringAction 1444901203738 BowlingGame.java ADD int sumOfFrames FIELD
+RefactoringAction 1444901287332 BowlingGame.java REMOVE index FIELD
+EditAction 1444901543552 BowlingGame.java 722 5 4 0

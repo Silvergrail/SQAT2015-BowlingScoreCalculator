@@ -10,9 +10,10 @@ import org.unioulu.tol.sqat.bsc.Frame;
 public class TestBowlingScoreCalculator {
 	
 	private Frame testFrame;
+
 	private BowlingGame testBowlingGame;
 	
-	@Before 
+/*	@Before 
 	public void setGame() {
 		testBowlingGame.addFrame(new Frame(1, 5));
 		testBowlingGame.addFrame(new Frame(3, 6));
@@ -24,7 +25,7 @@ public class TestBowlingScoreCalculator {
 		testBowlingGame.addFrame(new Frame(4, 5));
 		testBowlingGame.addFrame(new Frame(8, 1));
 		testBowlingGame.addFrame(new Frame(2, 6));	
-	}
+	}*/
 
 	@Test
 	public void test() {
@@ -42,10 +43,31 @@ public class TestBowlingScoreCalculator {
 		assertEquals(8, testFrame.score());			
 	}
 	
+	@Test
+	public void testAddingToAnGameArray() {
+		testFrame = new Frame (1, 5);
+		testBowlingGame.addFrame(testFrame);
+		System.out.println(testBowlingGame.frames);
+		assertEquals("[1, 5]", testBowlingGame.frames);
+		
+	}
+	
 	
 	@Test
-	public void testGameConsistsOfTenFrames() {
+	public void testComputeScoreOfTenFrames() {
+		testBowlingGame.addFrame(new Frame(1, 5));
+		testBowlingGame.addFrame(new Frame(3, 6));
+		testBowlingGame.addFrame(new Frame(7, 2));
+		testBowlingGame.addFrame(new Frame(3, 6));
+		testBowlingGame.addFrame(new Frame(4, 4));
+		testBowlingGame.addFrame(new Frame(5, 3));
+		testBowlingGame.addFrame(new Frame(3, 3));
+		testBowlingGame.addFrame(new Frame(4, 5));
+		testBowlingGame.addFrame(new Frame(8, 1));
+		testBowlingGame.addFrame(new Frame(2, 6));
 		
+		
+		assertEquals(81, testBowlingGame.score());
 	}
 
 }

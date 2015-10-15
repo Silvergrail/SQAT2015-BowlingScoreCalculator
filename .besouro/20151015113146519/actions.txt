@@ -67,3 +67,36 @@ RefactoringAction 1444901120583 TestBowlingScoreCalculator.java RENAME testCompu
 RefactoringAction 1444901203738 BowlingGame.java ADD int sumOfFrames FIELD
 RefactoringAction 1444901287332 BowlingGame.java REMOVE index FIELD
 EditAction 1444901543552 BowlingGame.java 722 5 4 0
+UnitTestCaseAction 1444901629125 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444901629125 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444901670495 TestBowlingScoreCalculator.java REMOVE testComputeScoreOfFrames() METHOD
+RefactoringAction 1444901670495 TestBowlingScoreCalculator.java REMOVE testFrameIsComposedOfTwoThrowsScoresAre2And4() METHOD
+RefactoringAction 1444901670495 TestBowlingScoreCalculator.java REMOVE setGame() METHOD
+RefactoringAction 1444901670495 TestBowlingScoreCalculator.java REMOVE testComputeScoreOfTenFrames() METHOD
+RefactoringAction 1444901670495 TestBowlingScoreCalculator.java REMOVE test() METHOD
+RefactoringAction 1444901675515 TestBowlingScoreCalculator.java ADD void test() METHOD
+RefactoringAction 1444901675515 TestBowlingScoreCalculator.java ADD void testFrameIsComposedOfTwoThrowsScoresAre2And4() METHOD
+RefactoringAction 1444901675515 TestBowlingScoreCalculator.java ADD void testComputeScoreOfFrames() METHOD
+RefactoringAction 1444901675515 TestBowlingScoreCalculator.java ADD void testComputeScoreOfTenFrames() METHOD
+UnitTestCaseAction 1444901690665 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444901690665 TestBowlingScoreCalculator FAIL
+UnitTestCaseAction 1444901762517 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444901762517 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444901839101 BowlingGame.java REMOVE frame FIELD
+RefactoringAction 1444902147694 TestBowlingScoreCalculator.java ADD Frame testFrame1 FIELD
+RefactoringAction 1444902152204 TestBowlingScoreCalculator.java RENAME testFrame1=>Frame testFrame1() METHOD
+RefactoringAction 1444902175286 TestBowlingScoreCalculator.java REMOVE testFrame1() METHOD
+UnitTestCaseAction 1444902273111 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444902273111 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444902441645 TestBowlingScoreCalculator.java ADD void testAddingToAnGameArray() METHOD
+CompilationAction 1444902559989 TestBowlingScoreCalculator.java
+UnitTestCaseAction 1444902564019 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444902564019 TestBowlingScoreCalculator FAIL
+UnitTestCaseAction 1444902595150 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444902595150 TestBowlingScoreCalculator FAIL
+UnitTestCaseAction 1444902635084 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444902635084 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444902782171 BowlingGame.java ADD String getFrames FIELD
+RefactoringAction 1444902786681 BowlingGame.java RENAME getFrames=>String getFrames() METHOD
+RefactoringAction 1444902789691 BowlingGame.java RENAME getFrames()=>String getFramesList() METHOD
+EditAction 1444902828881 BowlingGame.java 764 6 5 0

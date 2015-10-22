@@ -2,6 +2,9 @@ package org.unioulu.tol.sqat.bsc.tests;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.unioulu.tol.sqat.bsc.BowlingGame;
@@ -45,6 +48,11 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testAddingToAnGameArray() {
+		
+		BowlingGame testBowlingGame = new BowlingGame();
+		
+		List<Frame> frames = new ArrayList<Frame>();
+		
 		testFrame = new Frame (1, 5);
 		testBowlingGame.frames.add(testFrame);
 		assertEquals("[1, 5]", testBowlingGame.frames);
@@ -54,6 +62,11 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testComputeScoreOfTenFrames() {
+		
+		BowlingGame testBowlingGame = new BowlingGame();
+		
+		List<Frame> frames = new ArrayList<Frame>();
+		
 		testBowlingGame.frames.add(new Frame(1, 5));
 		testBowlingGame.frames.add(new Frame(3, 6));
 		testBowlingGame.frames.add(new Frame(7, 2));
@@ -64,6 +77,8 @@ public class TestBowlingScoreCalculator {
 		testBowlingGame.frames.add(new Frame(4, 5));
 		testBowlingGame.frames.add(new Frame(8, 1));
 		testBowlingGame.frames.add(new Frame(2, 6));
+		
+
 		
 		
 		assertEquals(81, testBowlingGame.score());
